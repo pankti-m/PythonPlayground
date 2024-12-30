@@ -12,6 +12,3 @@ for num in input_list:
         continue
     if num%5 == 0:
         print(num)
-
-
-
