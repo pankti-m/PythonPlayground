@@ -1,0 +1,9 @@
+def var_len_args(*args):
+    print("Printing the arguments passed to this function")
+    for s in args:
+        print(s, end=" ")
+
+var_len_args(10, 20, 30, 40, 50)
+var_len_args(-1, -20, 17)
+var_len_args("Pankti", "Drashty")
+

@@ -1,0 +1,5 @@
+def greet(first_name, last_name):
+    print("Hello " + first_name + " " + last_name)
+
+first_name, last_name = input("Enter the first and last names separated by space: ").split()
+greet(first_name, last_name)
